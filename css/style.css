@@ -24,8 +24,7 @@ a{
 .boton1:hover{
     background-color: #8f0100;
     color: #fff;
-    transform: translateY(5%);
-    transition: 1s;
+    transition: all 1s ease;
 }
 
 .boton2{
@@ -43,30 +42,18 @@ a{
     background-color: #000;
     border-color: #fff;
     color: #fff;
-    transform: translateY(5%);
-    transition: 1s;
+    transition: all 1s ease;
 }
 /*general*/
 
 /*header*/
-.menu__lista{
-    display: inline; 
-}
-
-
-.menu{
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+.bg-body-tertiary{
     background-color: #8f0100;
+    --bs-bg-opacity: 0;
 }
 
-.menu__barra{
-    font-size:21px;
-    padding: 20px;
+.container-fluid{
+    background-color: #8f0100;
 }
 .menu__enlace{
     color: #fff;
@@ -76,6 +63,14 @@ a{
     width: 90px;
     height: 90px;
 }
+.navbar-brand{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar{
+    padding: 0px;
+}
+
 /*header*/
 /*footer*/
 
@@ -83,18 +78,22 @@ a{
     padding: 50px 40px 40px 40px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items:center;
+    align-items: center;
+}
+.footer a{
+    color: #000;
 }
 .footer__img{
     width: 20px;
     height: 20px;
+    
 }
 .footer__copy{
     text-align: end;
     padding: 15px;
     background-color: #8f0100;
     color: white;
+    margin: 0px;
 }
 /*footer*/
 
@@ -125,6 +124,22 @@ a{
 .mostrador__boton{
     text-align: center;
     margin-top: 20px;
+}
+@media (max-width:768px){
+    .footer__copy{
+        font-size: 14px;
+        text-align: center;
+    }
+    .mostrador__cuerpo{
+        display:flex ;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mostrador__img{
+        height: 250px;
+    }
+    
 }
 /*mostrador*/
 
