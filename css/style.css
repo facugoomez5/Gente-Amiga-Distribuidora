@@ -125,22 +125,6 @@ a{
     text-align: center;
     margin-top: 20px;
 }
-@media (max-width:768px){
-    .footer__copy{
-        font-size: 14px;
-        text-align: center;
-    }
-    .mostrador__cuerpo{
-        display:flex ;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .mostrador__img{
-        height: 250px;
-    }
-    
-}
 /*mostrador*/
 
 /*productos*/
@@ -533,4 +517,103 @@ a{
 
 /*main sucursales*/
 
+@media (max-width:768px){
+    .menu__img{
+        height: 110px;
+        width: 110px;
+    }
+    .footer__copy{
+        font-size: 14px;
+        text-align: center;
+    }
+    .mostrador__cuerpo{
+        display:flex ;
+        flex-direction: column;
+        text-align: center;
+    }
+    .mostrador__img{
+        height: 240px;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+    .catalogo{
+        border: 0px;
+    }
+    .nosotros__tarjeta1{
+        display: flex;
+        flex-direction: column;
 
+    }
+    .nosotros__tarjeta1 img{
+        height: 320px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .nosotros__tarjeta2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nosotros__tarjeta2 img{
+        height: 520px;
+        order: 0;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .productos__barras{
+        font-size: 25px;
+    }
+
+    .picadas__caja:hover{
+        scale: 1.6;
+    }
+    .box__caja:hover{
+        scale: 1.6;
+    }
+    .postre__caja:hover{
+        scale: 1.6;
+    }
+    .sandwich__caja:hover{
+        scale: 1.6;
+    }
+    .sorrentinos__caja:hover{
+        scale: 1.6;
+    }
+
+    .formulario{
+        padding: 0px;
+        border: 0px;
+    }
+    .formulario__caja{
+        padding: 0px;
+        border: 0px;
+    }
+
+
+    .sucursales__tarjeta1{
+        display: flex;
+        flex-direction: column;
+    }
+    .sucursales__mapa1{
+        height: 360px;
+        width: 360px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .sucursales__tarjeta2{
+        display: flex;
+        flex-direction: column;
+    }
+    .sucursales__mapa2{
+        height: 360px;
+        width: 360px;
+        order: 0;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+}
