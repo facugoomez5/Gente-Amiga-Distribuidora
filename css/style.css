@@ -20,11 +20,12 @@ a{
     font-size: 16px;
     margin: 4px ;
     cursor: pointer;
+    transition: all 0.8s ease;
 }
 .boton1:hover{
     background-color: #8f0100;
     color: #fff;
-    transition: all 1s ease;
+    transition: all 0.8s ease;
 }
 
 .boton2{
@@ -37,12 +38,13 @@ a{
     font-size: 16px;
     margin: 4px ;
     cursor: pointer;
+    transition: all 0.8s ease;
 }
 .boton2:hover{
     background-color: #000;
     border-color: #fff;
     color: #fff;
-    transition: all 1s ease;
+    transition: all 0.8s ease;
 }
 /*general*/
 
@@ -104,8 +106,12 @@ a{
 }
 .mostrador__titulo{
     text-align: center;
-    font-size: 40px;
+    font-size: 70px;
     margin: 30px;
+    margin-top: 0px;
+    font-weight: bold; 
+    color:#8f0100; 
+    
 }
 .mostrador__cuerpo{
     display:flex ;
@@ -137,8 +143,11 @@ a{
 .catalogo__titulo{
     text-align: center;
     color: #fff;
-    font-size: 40px;
     padding: 30px;
+    font-size: 70px;
+    margin: 30px;
+    font-weight: bold; 
+    
 }
 
 .catalogo__caja{
@@ -181,8 +190,11 @@ a{
 /*main nosotros*/
 .nosotros__titulo{
     text-align: center;
-    font-size: 40px;
     padding: 30px;
+    font-size: 70px;
+    margin: 30px;
+    font-weight: bold; 
+    color:#8f0100; 
 }
 
 .nosotros__tarjeta1{
@@ -226,20 +238,24 @@ a{
 
 /*main productos*/
 .productos__titulo{
-    font-size: 40px;
     text-align: center;
-    padding: 20px;
-    padding-top: 40px;
+    padding: 30px;
+    font-size: 70px;
+    margin: 30px;
+    font-weight: bold; 
+    color:#8f0100;
 }
 
 .productos__barras{
     text-align: center;
     font-size: 35px;
     padding: 10px;
+    background-color: #8f0100;
 }
 
 .productos__barras a{
     padding: 3px;
+    color: #fff;
 }
 
 .picadas{
@@ -259,6 +275,7 @@ a{
     margin: 30px;
     width: 220px;
     background-color: #fff;;
+    text-align: center;
 }
 .picadas__caja:hover{
     scale: 1.2;
@@ -266,12 +283,13 @@ a{
 }
 .picadas__caja img{
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .picadas__texto{
     color: #000;
     text-align: center;
     font-size: 100%;
+    margin: 0px;
 }
 
 .picadas__titulo{
@@ -279,6 +297,7 @@ a{
     font-size: 35px;
     padding-top: 60px;
 }
+
 
 
 .box{
@@ -297,6 +316,7 @@ a{
     margin: 30px;
     width: 220px;
     background-color: #fff;
+    text-align: center;
 }
 .box__caja:hover{
     scale: 1.2;
@@ -335,6 +355,7 @@ a{
     margin: 30px;
     width: 220px;
     background-color: #fff;
+    text-align: center;
 }
 .postre__caja:hover{
     scale: 1.2;
@@ -372,6 +393,7 @@ a{
     margin: 30px;
     width: 220px;
     background-color: #fff;
+    text-align: center;
 }
 .sandwich__caja:hover{
     scale: 1.2;
@@ -408,6 +430,7 @@ a{
     margin: 30px;
     width: 220px;
     background-color: #fff;
+    text-align: center;
 }
 .sorrentinos__caja:hover{
     scale: 1.2;
@@ -432,10 +455,12 @@ a{
 
 /*main contacto*/
 .formulario__titulo{
-    font-size: 40px;
     text-align: center;
-    padding: 20px;
-    padding-top: 40px;
+    padding: 30px;
+    font-size: 70px;
+    margin: 30px;
+    font-weight: bold; 
+    color:#8f0100; 
 }
 .formulario{
     display: flex;
@@ -472,8 +497,11 @@ a{
 /*main sucursales*/
 .sucursales__titulo{
     text-align: center;
-    font-size: 40px;
     padding: 30px;
+    font-size: 70px;
+    margin: 30px;
+    font-weight: bold; 
+    color:#8f0100; 
 }
 
 .sucursales__tarjeta1{
@@ -518,6 +546,7 @@ a{
 /*main sucursales*/
 
 @media (max-width:768px){
+    /*footer mediaquery*/
     .menu__img{
         height: 110px;
         width: 110px;
@@ -525,6 +554,16 @@ a{
     .footer__copy{
         font-size: 14px;
         text-align: center;
+    }
+    /*footer mediaquery*/
+
+    /*index mediaquery*/
+    .mostrador__titulo{
+        margin: 30px 0px 30px 0px;
+    }
+    .catalogo__titulo{
+        font-size: 65px;
+        margin: 0px;
     }
     .mostrador__cuerpo{
         display:flex ;
@@ -540,6 +579,12 @@ a{
     .catalogo{
         border: 0px;
     }
+    /*index mediaquery*/
+
+    /*nosotros mediaquery*/
+    .nosotros__titulo{
+        margin: 0px;
+    }
     .nosotros__tarjeta1{
         display: flex;
         flex-direction: column;
@@ -550,23 +595,26 @@ a{
         padding-left: 0px;
         padding-right: 0px;
     }
-
     .nosotros__tarjeta2{
         display: flex;
         flex-direction: column;
     }
-
     .nosotros__tarjeta2 img{
         height: 520px;
         order: 0;
         padding-left: 0px;
         padding-right: 0px;
     }
+    /*nosotros mediaquery*/
 
+    /*productos mediaquery*/
+    .productos__titulo{
+        font-size: 65px;
+        margin: 0px;
+    }
     .productos__barras{
         font-size: 25px;
     }
-
     .picadas__caja:hover{
         scale: 1.6;
     }
@@ -582,7 +630,12 @@ a{
     .sorrentinos__caja:hover{
         scale: 1.6;
     }
+    /*productos mediaquery*/
 
+    /*formulario mediaquery*/
+    .formulario__titulo{
+        margin: 0px;
+    }
     .formulario{
         padding: 0px;
         border: 0px;
@@ -591,8 +644,13 @@ a{
         padding: 0px;
         border: 0px;
     }
+    /*formulario mediaquery*/
 
-
+    /*sucursales mediaquery*/
+    .sucursales__titulo{
+        margin: 40px 0px 40px 0px;
+        padding: 0px;
+    }
     .sucursales__tarjeta1{
         display: flex;
         flex-direction: column;
@@ -614,6 +672,5 @@ a{
         padding-left: 0px;
         padding-right: 0px;
     }
-
-
+    /*sucursales mediaquery*/
 }
