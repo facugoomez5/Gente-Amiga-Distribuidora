@@ -276,6 +276,7 @@ a{
     width: 220px;
     background-color: #fff;;
     text-align: center;
+    transition: 0.8s;
 }
 .picadas__caja:hover{
     scale: 1.2;
@@ -317,6 +318,7 @@ a{
     width: 220px;
     background-color: #fff;
     text-align: center;
+    transition: 0.8s;
 }
 .box__caja:hover{
     scale: 1.2;
@@ -356,6 +358,7 @@ a{
     width: 220px;
     background-color: #fff;
     text-align: center;
+    transition: 0.8s;
 }
 .postre__caja:hover{
     scale: 1.2;
@@ -394,6 +397,7 @@ a{
     width: 220px;
     background-color: #fff;
     text-align: center;
+    transition: 0.8s;
 }
 .sandwich__caja:hover{
     scale: 1.2;
@@ -431,6 +435,7 @@ a{
     width: 220px;
     background-color: #fff;
     text-align: center;
+    transition: 0.8s;
 }
 .sorrentinos__caja:hover{
     scale: 1.2;
