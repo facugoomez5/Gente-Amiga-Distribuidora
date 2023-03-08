@@ -1,0 +1,15 @@
+//general
+@import "./general/tipografia.scss";
+@import "./general/color.scss";
+@import "./general/boton.scss";
+
+//layout
+@import "./layout/layout.scss";
+@import "./layout/footer.scss";
+
+//paginas
+@import "../index.html";
+@import "./paginas/contacto.scss";
+@import "./paginas/nosotros.scss";
+@import "./paginas/productos.scss";
+@import "./paginas/sucursales.scss";
