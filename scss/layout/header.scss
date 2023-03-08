@@ -1,0 +1,36 @@
+.bg-body-tertiary{
+    background-color: #8f0100;
+    --bs-bg-opacity: 0;
+}
+
+.container-fluid{
+    background-color:#8f0100;
+    text-align: center;
+    font-size: 18px;
+}
+.menu{
+    .menu__enlace{
+        color: #fff;
+        padding: 2px;
+    }
+    .menu__img{
+        width: 90px;
+        height: 90px;
+    }
+    @media(max-width:768px){
+        .menu__img{
+            height: 110px;
+            width: 110px;
+        }
+    }
+}
+.navbar{
+    padding: 0px;
+    .navbar-brand{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .navbar-toggler{
+        border-color:#000;
+    }
+}
