@@ -7,12 +7,7 @@
         font-weight: bold; 
         color:#8f0100;
     }
-    @media (max-width:768px){
-        .productos__titulo{
-            font-size: 65px;
-            margin: 0px;
-        }
-    }
+    
     .productos__barras{
         text-align: center;
         font-size: 35px;
@@ -21,11 +16,6 @@
         a{
             padding: 3px;
             color: #fff;
-        }
-    }
-    @media(max-width:768px){
-        .productos__barras{
-            font-size: 25px;
         }
     }
 }
@@ -67,4 +57,13 @@
         margin: 0px;
     }
     
+}
+@media (max-width:768px){
+    .productos__titulo{
+        font-size: 65px;
+        margin: 0px;
+    }
+    .productos__barras{
+        font-size: 25px;
+    }
 }
