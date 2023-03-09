@@ -205,11 +205,6 @@ a {
   font-weight: bold;
   color: #8f0100; }
 
-@media (max-width: 768px) {
-  .productos .productos__titulo {
-    font-size: 65px;
-    margin: 0px; } }
-
 .productos .productos__barras {
   text-align: center;
   font-size: 35px;
@@ -219,17 +214,9 @@ a {
     padding: 3px;
     color: #fff; }
 
-@media (max-width: 768px) {
-  .productos .productos__barras {
-    font-size: 25px; } }
-
 .producto {
   border: 3px solid #000;
   background-color: #8f0100; }
-  .producto .producto__titulo {
-    text-align: center;
-    font-size: 35px;
-    padding-top: 60px; }
   .producto .producto__caja {
     border: 3px solid #000;
     border-radius: 6px;
@@ -252,6 +239,18 @@ a {
     text-align: center;
     font-size: 100%;
     margin: 0px; }
+
+.producto__titulo {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 60px; }
+
+@media (max-width: 768px) {
+  .productos__titulo {
+    font-size: 65px;
+    margin: 0px; }
+  .productos__barras {
+    font-size: 25px; } }
 
 .sucursales__titulo {
   text-align: center;
