@@ -48,25 +48,32 @@
         <h1 class="formulario__titulo">Contacto</h1>
         
         <section class="formulario">
-            <form action="" enctype="multipart/form-data" method="get">
-                <fieldset class="formulario__caja">
-                    <legend>Envie su Consulta</legend>
-                    <div class="formulario__casillas">
-                        <input type="text" placeholder="Nombre" >
-                    </div>
-                    <div class="formulario__casillas">
-                        <input type="text" placeholder="Email"> 
-                    </div>
-                    <div class="formulario__casillas">
-                        <input type="text" placeholder="Telefono">    
-                    </div>
-                    <div class="formulario__casillas">
-                        <textarea name="" id="" cols="40" rows="20"></textarea>
-                    </div>
-                    <input type="submit" value="Enviar" class="boton1">
-                </fieldset>
-                
-            </form>
+          <form action="#" target="" method="get" name="formDatosPersonales">
+            <fieldset class="formulario__caja">
+              <legend>Envie su Consulta</legend>
+              <div class="formulario__casillas">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+              </div>
+              <div class="formulario__casillas">
+                <label for="apellidos">Apellidos</label>
+                <input type="text" name="apellidos" id="apellidos" placeholder="Apellido"/>
+              </div> 
+              <div class="formulario__casillas">
+                <label for="email" />Email</label>
+                <input type="email" name="email" id="email" placeholder="email" required />
+              </div>
+              <div class="formulario__casillas">
+                <label for="asunto">Asunto</label>
+                <input type ="text" name="asunto" id="asunto" placeholder="titular de la consulta"/>
+              </div>
+              <div class="formulario__casillas">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
+              </div>
+              <input type="submit" name="enviar" value="enviar datos" class="boton1"/>
+            </fieldset>
+          </form>
         </section>
     </main>
     <footer id="redes">
